@@ -3,9 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <title>js array practice</title>
-    <script language="javascript" type="text/javascript" src="array.js"></script>
+    <script language="javascript" type="text/javascript" src="calculator.js"></script>
 </head>
 <body>
     <h1>JS Practice</h1>
+    <form name="Calc">
+        <input type="text" id="nr1"> 
+        <select size="1" name="operator" id="operator">
+            <option value="+" selected="selected">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+        </select>
+        <input type="text" id="nr2"> 
+        <input type="button" name="submit" value="=" onclick="calc();">
+        <input type="text" id="summe">
+    </form>
 </body>
 </html>
