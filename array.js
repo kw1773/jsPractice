@@ -7,19 +7,19 @@ Fügen Sie ein neues Element ("anfang") an dem Array-Anfang ein.
 Fügen Sie ein neues Element ("ende") an dem Array an.
 */
 
-var myArray = [1, 2, 3, 4, "hans", "meier", 7, 8, 9];
-console.log(myArray);
+var myArray = [1, 2, 3, 4, "hans", "meier", 7, 8, 9]; 
+console.log(myArray); // [1, 2, 3, 4, "hans", "meier", 7, 8, 9]
 
-var myArrayLength = myArray.length;
-console.log(myArrayLength);
+var myArrayLength = myArray.length; // 9
+console.log(myArrayLength); 
 
-var removeIndexTwo = myArray.splice(2, 1);
+var removeIndexTwo = myArray.splice(2, 1); // 3
 console.log(removeIndexTwo);
 
-var indexOfMeier = myArray.indexOf("meier");
+var indexOfMeier = myArray.indexOf("meier"); // 4
 myArray.splice(indexOfMeier, 1);
 
 myArray.unshift("anfang");
 myArray.push("ende");
 
-console.log("Mit beginn und ende:" + myArray);
+console.log("Mit beginn und ende:" + myArray); // Mit beginn und ende:anfang,1,2,4,hans,7,8,9,ende
