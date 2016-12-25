@@ -1,4 +1,5 @@
-# jsArrayPractice
+# jsPractice
+## jsArrayPractice
 * Specify the number of elements in this array. 
 * Delete the element with index 2. (Element content: 3) 
 * Determine the index of the "meier" element and store it in a variable. 
@@ -26,3 +27,11 @@
         console.log("Mit beginn und ende:" + myArray);
     </code>
 </pre>
+
+## jsCalcPractice
+
+Write a calculator in javascript, which has.. 
+* two numbers and the operator (+, -, *, /,%)
+* output the value
+* error handling of the input by numbers and dividing by 0
+
